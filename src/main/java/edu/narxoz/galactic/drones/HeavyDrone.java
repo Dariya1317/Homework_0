@@ -6,5 +6,7 @@ public HeavyDrone(String id, double maxPlayloadKg){
     } 
 
     @Override
-    public double speedKmPerMin(){}
+    public double speedKmPerMin(){
+        return 5.0;
+    }
 }  
